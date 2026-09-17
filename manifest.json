@@ -1,0 +1,17 @@
+{
+  "name": "Money Book · สมุดบัญชีขนมปัง",
+  "short_name": "Money Book",
+  "description": "แอปบันทึกรายรับรายจ่าย งบประมาณ หนี้สิน และเป้าหมายการออม",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FFF7EF",
+  "theme_color": "#F5A96A",
+  "lang": "th",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8D%9E%3C/text%3E%3C/svg%3E",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
