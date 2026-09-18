@@ -940,6 +940,12 @@ applyTheme();renderAll();
 window.addEventListener("storage",function(e){if(e.key===KEY){try{D=Object.assign(seed(),JSON.parse(e.newValue));renderAll()}catch(x){}}});
 if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("./sw.js").catch(function(){})})}
 })();
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js')
+      .then(reg => console.log('Service Worker Registered'))
+      .catch(err => console.log('Service Worker Failed', err));
+  }
 </script>
 </body>
 </html>
